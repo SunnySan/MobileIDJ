@@ -15,7 +15,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.taisys.oti.Card;
-import com.taisys.oti.Card.SCSupported;
 
 import org.json.JSONObject;
 
@@ -116,7 +115,7 @@ public class AuthenticationActivity extends Activity {
                 //顯示Progress對話視窗
                 // showWaiting(getString(R.string.pleaseWait), getString(R.string.msgCheckCardAvailability));
                 showWaiting(getString(R.string.pleaseWait), getString(R.string.msgCreatingSignature));
-                mCard.OpenSEService(myContext, "A000000018506373697A672D63617264",
+                mCard.OpenSEService(myContext, "A000000018506373697A672D63617264", "617264",
                         new Card.SCSupported() {
 
                             @Override

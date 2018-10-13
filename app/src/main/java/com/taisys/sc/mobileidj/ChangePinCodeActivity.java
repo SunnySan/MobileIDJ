@@ -75,7 +75,7 @@ public class ChangePinCodeActivity extends Activity {
                 //顯示Progress對話視窗
                 // showWaiting(getString(R.string.pleaseWait), getString(R.string.msgCheckCardAvailability));
                 showWaiting(getString(R.string.pleaseWait), getString(R.string.msgChangePinCodeInProgress));
-                mCard.OpenSEService(myContext, "A000000018506373697A672D63617264", "617264",
+                mCard.OpenSEService(myContext, "A000000018506373697A672D63617264", "4F5449",
                         new Card.SCSupported() {
 
                             @Override

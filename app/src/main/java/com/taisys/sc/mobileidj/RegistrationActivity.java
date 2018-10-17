@@ -143,6 +143,7 @@ public class RegistrationActivity extends Activity {
                 // showWaiting(getString(R.string.pleaseWait), getString(R.string.msgCheckCardAvailability));
                 showWaiting(getString(R.string.pleaseWait), getString(R.string.msgRegistrationInProgress));
                 utility.setMySetting(myContext, "iccid", "");   //先把程式裡的 iccid 設定清除
+                mCard.setPrintLog(true);
                 mCard.OpenSEService(myContext, "A000000018506373697A672D63617264", "4F5449",
                         new SCSupported() {
 

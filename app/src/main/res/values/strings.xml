@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MobileID</string>
+    <string name="app_name">MobileID Client</string>
     <string name="menuAbout">About</string>
     <string name="msgSystemInfo">System Information</string>
     <string name="aboutTaisys">Powered by Taisys Holding Co. Ltd. \nAll rights reserved.</string>

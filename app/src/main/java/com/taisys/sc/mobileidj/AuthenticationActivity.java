@@ -115,7 +115,8 @@ public class AuthenticationActivity extends Activity {
                 //顯示Progress對話視窗
                 // showWaiting(getString(R.string.pleaseWait), getString(R.string.msgCheckCardAvailability));
                 showWaiting(getString(R.string.pleaseWait), getString(R.string.msgCreatingSignature));
-                mCard.OpenSEService(myContext, "A000000018506373697A672D63617264", "4F5449",
+                //mCard.OpenSEService(myContext, "A000000018506373697A672D63617264", "4F5449",
+                mCard.OpenSEService(myContext, "A00000004F54495F544149535953", "4F5449",
                         new Card.SCSupported() {
 
                             @Override
